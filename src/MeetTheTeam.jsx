@@ -135,9 +135,9 @@ const educatorsByYear = {
       image: RubyGupta,
     },
     {
-      name: "Ruby Gupta",
+      name: "Aryan Raj",
       role: "Co-Leader of Yoga Wing",
-      image: RubyGupta,
+      image: AryanRaj,
     },
     {
       name: "Krupa Joshi",
