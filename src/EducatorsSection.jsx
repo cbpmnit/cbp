@@ -18,14 +18,14 @@ const educators = [
     image: nikhil,
   },
   {
-    name: "Ansh Pachuri",
-    role: "Co-founder",
-    image: ansh,
-  },
-  {
     name: "Nikes Sirvi",
     role: "Co-founder",
     image: nikesh,
+  },
+  {
+    name: "Ansh Pachuri",
+    role: "Co-founder",
+    image: ansh,
   },
   {
     name: "Ashana meena",
