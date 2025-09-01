@@ -4,6 +4,7 @@ import harsh from "./images/harsh.png";
 import nikesh from "./images/nikesh.png";
 import ashana from "./images/ashana.png";
 import nikhil from "./images/nikhil.png";
+import ansh from "./images/ansh.png";
 import { Link } from 'react-router-dom';
 const educators = [
   {
@@ -15,6 +16,11 @@ const educators = [
     name: "Nikhil Chouhan",
     role: "Co-founder",
     image: nikhil,
+  },
+  {
+    name: "Ansh Pachuri",
+    role: "Co-founder",
+    image: ansh,
   },
   {
     name: "Nikes Sirvi",
