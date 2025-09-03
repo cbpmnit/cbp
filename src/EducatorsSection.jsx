@@ -28,7 +28,7 @@ const educators = [
     image: ansh,
   },
   {
-    name: "Ashana meena",
+    name: "Ashana Meena",
     role: "Co-founder",
     image: ashana,
   }
