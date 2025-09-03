@@ -35,7 +35,7 @@ const educatorsByYear = {
       image: HardikDhoot,
     },
     {
-      name: "Parv Agarwal",
+      name: "Parv Agrawal",
       role: "Designing secretary",
       image: ParvAgrawal,
     },
