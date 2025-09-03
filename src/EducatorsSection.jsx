@@ -18,7 +18,7 @@ const educators = [
     image: nikhil,
   },
   {
-    name: "Nikes Sirvi",
+    name: "Nikesh Sirvi",
     role: "Co-founder",
     image: nikesh,
   },

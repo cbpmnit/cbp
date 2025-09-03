@@ -32,7 +32,7 @@ const workshopData = [
     description:
       "Discover the importance of persistence, hard work, and mindset in achieving professional and personal milestones.",
     date: "07/09/2025",
-    duration: "6-8 pm",
+    duration: "11am - 1pm",
     speaker: "Adv. Anuj Saxena",
     isSignature: true,
   },
