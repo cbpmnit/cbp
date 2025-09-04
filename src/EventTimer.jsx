@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-// ✅ Reusable FlipBox Component with Glass + Glow
+// FlipBox Component
 const FlipBox = ({ value, label }) => {
   return (
     <motion.div
@@ -13,8 +13,7 @@ const FlipBox = ({ value, label }) => {
                  min-w-[70px] md:min-w-[100px] 
                  flex flex-col items-center justify-center"
     >
-      {/* Glow Effect */}
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[white] to-[#0072ff] opacity-20 blur-2xl"></div>
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#00c6ff] to-[#0072ff] opacity-20 blur-2xl"></div>
 
       <AnimatePresence mode="wait">
         <motion.h3
@@ -82,21 +81,21 @@ export default function EventTimer() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="flex flex-col items-center text-white w-full px-4"
+      className="flex flex-col items-center text-white w-full px-2"
     >
-      {/* 🚀 Outer Box with Glass + Glow */}
       <motion.div
         whileHover={{ scale: 1.02, rotate: 0.5 }}
         transition={{ type: "spring", stiffness: 120 }}
         className="relative bg-gradient-to-br from-[#141e30] to-[#243b55] 
-                   rounded-3xl shadow-2xl w-full max-w-xl 
-                   p-6 md:p-10 backdrop-blur-lg overflow-hidden"
+                   rounded-3xl shadow-2xl w-full 
+                   sm:max-w-full md:max-w-xl 
+                   p-6 md:p-10 backdrop-blur-lg overflow-hidden 
+                   mx-0 sm:mx-2 md:mx-auto"
       >
-        {/* Animated Glow Layer */}
         <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-[#00c6ff]/20 to-[#0072ff]/30 blur-3xl"></div>
 
-        <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center relative z-10">
-          ⚡Charge Up… Time’s Ticking!⚡
+        <h1 className="text-2xl md:text-3xl font-bold mb-5 text-center relative z-10">
+          Final Lap Ticking!
         </h1>
 
         {finished ? (
@@ -109,12 +108,13 @@ export default function EventTimer() {
             🚀 Event Started!
           </motion.div>
         ) : (
-          <div className="flex flex-row justify-center gap-3 md:gap-6 relative z-10">
-            <FlipBox value={days} label="Days" />
-            <FlipBox value={hours} label="Hours" />
-            <FlipBox value={minutes} label="Minutes" />
-            <FlipBox value={seconds} label="Seconds" />
-          </div>
+<div className="grid grid-cols-4 w-full px-2 sm:px-4 md:px-8">
+  <FlipBox value={days} label="Days" />
+  <FlipBox value={hours} label="Hours" />
+  <FlipBox value={minutes} label="Minutes" />
+  <FlipBox value={seconds} label="Seconds" />
+</div>
+
         )}
       </motion.div>
     </motion.div>
