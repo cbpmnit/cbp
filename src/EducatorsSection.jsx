@@ -5,8 +5,14 @@ import nikesh from "./images/nikesh.png";
 import ashana from "./images/ashana.png";
 import nikhil from "./images/nikhil.png";
 import ansh from "./images/ansh.png";
+import priyanka from "./images/priyanka.png";
 import { Link } from 'react-router-dom';
 const educators = [
+  {
+    name: "Priyanka Kumari",
+    role: "Co-founder",
+    image: priyanka,
+  },
   {
     name: "Harsh Rawat",
     role: "Co-founder",

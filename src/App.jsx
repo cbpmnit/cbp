@@ -28,6 +28,7 @@ import QuizApp from "./quizinterface";
 import PaymentFailure from "./PaymentFailure";
 import Register_land from "./Register_land";
 import RegistrationForm from "./RegistrationForm";
+import EventTimer from "./EventTimer";
 // Main landing page component
 const HomePage = () => {
   return (

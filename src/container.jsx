@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import main_element from './images/mainElement.png'
 import { Link } from 'react-router-dom';
+import EventTimer from "./EventTimer";
+
 const Container = () => {
   // const videoRef = useRef(null);
   // const [isPlaying, setIsPlaying] = useState(true);
@@ -43,22 +45,11 @@ const Container = () => {
 </Link>
 
         </button>
+{/* Timer Section */}
+<div className="mt-6">
+  <EventTimer />
+</div>
 
-        {/* Stats Section */}
-        <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-6">
-          <div className="bg-white shadow-md px-6 py-4 rounded-xl text-center">
-            <h3 className="text-xl font-bold text-[#0674be]">1,00,000+</h3>
-            <p className="text-sm text-gray-600">Impressions</p>
-          </div>
-          <div className="bg-white shadow-md px-6 py-4 rounded-xl text-center">
-            <h3 className="text-xl font-bold text-[#0674be]">20+</h3>
-            <p className="text-sm text-gray-600">Total Speakers</p>
-          </div>
-          <div className="bg-white shadow-md px-6 py-4 rounded-xl text-center">
-            <h3 className="text-xl font-bold text-[#0674be]">1500+</h3>
-            <p className="text-sm text-gray-600">Workshop Attendees</p>
-          </div>
-        </div>
       </div>
 
       {/* Right Section (Video) */}
