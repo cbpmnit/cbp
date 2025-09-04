@@ -15,7 +15,7 @@ const Container = () => {
       <div className="w-full md:max-w-lg space-y-6 text-center md:text-left md:ml-10">
         {/* Logo and Title */}
         <div className="flex items-center space-x-3 justify-center md:justify-start">
-          <div className="w-8 h-8 rounded-full border-2 border-[#015b98]"></div>
+
           <div>
             <h2 className="text-2xl font-semibold text-[#015b98]">Capacity Building</h2>
             <h2 className="text-xl text-gray-600 -mt-1">Program</h2>
@@ -34,7 +34,7 @@ const Container = () => {
           to="/registration"
           className="inline-block bg-[#015b98] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#033861]"
         >
-          Buy Tickets - ₹150
+          Buy Ticket - ₹150
         </Link>
 
         {/* Timer Section */}

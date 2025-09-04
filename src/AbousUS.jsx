@@ -139,7 +139,9 @@ const AboutUS = () => {
             True capacity is built at the intersection of knowledge and character.  
             Leave with confidence, a strategic network, and a roadmap for your ascent.
           </p>
-          <button className="bg-white text-blue-700 px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition">
+          <button className="bg-white text-blue-700 px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition" 
+          onClick={() => window.open("https://whatsapp.com/channel/0029VbAx31s3QxS1vLfQCw3N", "_blank")}
+          >
             Join Us & Architect Your Future
           </button>
         </div>
