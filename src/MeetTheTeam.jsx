@@ -24,6 +24,7 @@ import VivekTapraniya from "./images/VivekTapraniya.png";
 import RubyGupta from "./images/Ruby Gupta.png";
 import KrupaJoshi from "./images/KrupaJoshi.png";
 import AkashKumar from "./images/Akash Kumar.png";
+import BalveerSaini from "./images/BalveerSaini.png";
 import KushalGarg from "./images/KushalGarg.png";
 import VimalDubey from "./images/VimalDubey.png";
 
@@ -88,6 +89,11 @@ const educatorsByYear = {
       name: "Rakshit Jain",
       role: "Co-Leader of Yoga Wing",
       image: RakshitJain,
+    },
+    {
+      name: "Balveer Saini",
+      role: "Co-Leader of Yoga Wing",
+      image: BalveerSaini,
     },
     {
       name: "Komal Wankhede",

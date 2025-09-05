@@ -37,7 +37,7 @@ const WorkshopCard = ({
           <span>
             ⏳ {duration}
           </span>
-          <span>📅- 
+          <span>📅
              {date}
           </span>
         </div>
