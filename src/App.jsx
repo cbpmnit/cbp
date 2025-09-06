@@ -29,10 +29,12 @@ import PaymentFailure from "./PaymentFailure";
 import Register_land from "./Register_land";
 import RegistrationForm from "./RegistrationForm";
 import EventTimer from "./EventTimer";
+import { Analytics } from "@vercel/analytics/react"
 // Main landing page component
 const HomePage = () => {
   return (
     <>
+      <Analytics/>
       <Navbar />
       <Container />
       <UpcomingWorkshops />

@@ -36,7 +36,7 @@ const FlipBox = ({ value, label }) => {
 export default function EventTimer() {
   const targetDate = new Date();
   targetDate.setDate(targetDate.getDate());
-  targetDate.setHours(17,30, 0, 0);
+  targetDate.setHours(11,0, 0, 0);
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
