@@ -1,6 +1,6 @@
 import React from "react";
 import EducatorCard from "./EducatorCard";
-import nupur from "./images/1.png";
+import nupur from "./images/cbp photos.png";
 import rakesh from "./images/2.png";
 import Niraja from "./images/3.png";
 
