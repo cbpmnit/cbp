@@ -1,61 +1,40 @@
 import React from "react";
 import EducatorCard from "./EducatorCard";
-import harsh from "./images/harsh.png";
-import nikesh from "./images/nikesh.png";
-import ashana from "./images/ashana.png";
-import nikhil from "./images/nikhil.png";
-import ansh from "./images/ansh.png";
-import priyanka from "./images/priyanka.png";
+import nupur from "./images/1.png";
+import rakesh from "./images/2.png";
+import Niraja from "./images/3.png";
+
 import { Link } from 'react-router-dom';
 const educators = [
   {
-    name: "Priyanka Kumari",
+    name: "Prof. Nupur Tandon",
     role: "Co-founder",
-    image: priyanka,
+    image: nupur,
   },
   {
-    name: "Harsh Rawat",
+    name: "Prof. Rakesh Jain",
     role: "Co-founder",
-    image: harsh,
+    image: rakesh,
   },
   {
-    name: "Nikhil Chouhan",
+    name: "Dr. Niraja Saraswat",
     role: "Co-founder",
-    image: nikhil,
-  },
-  {
-    name: "Nikesh Sirvi",
-    role: "Co-founder",
-    image: nikesh,
-  },
-  {
-    name: "Ansh Pachauri",
-    role: "Co-founder",
-    image: ansh,
-  },
-  {
-    name: "Ashana Meena",
-    role: "Co-founder",
-    image: ashana,
-  }
+    image: Niraja,
+  } 
 ];
 
 const Faculty = () => {
   return (
     <section className="py-10 px-4 text-center">
-      <h2 className="text-2xl font-bold">Meet your Seniors</h2>
-      <p className="text-gray-500 mb-8">The force behind the CBP program</p>
-      <div className="flex justify-center flex-wrap gap-y-4">
+      <h2 className="text-2xl font-bold">Our Inspiration </h2>
+      <p className="text-gray-500 mb-8">This wouldn't be possible without them </p>
+      <div className="flex justify-center flex-wrap gap-y-4 gap-x-10">
         {educators.map((edu, index) => (
           <EducatorCard key={index} {...edu} />
         ))}
       </div>
 
-      <div className="mt-10">
-<button className="bg-[#a1735b] text-white px-8 py-2 rounded-full hover:bg-[#865b44] transition">
-  <Link to="/MeetTheTeam" onClick={() => window.scrollTo(0, 0)}>View Entire Team</Link>
-</button>
-      </div>
+
     </section>
   );
 };
