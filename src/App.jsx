@@ -30,6 +30,7 @@ import Register_land from "./Register_land";
 import RegistrationForm from "./RegistrationForm";
 import EventTimer from "./EventTimer";
 import { Analytics } from "@vercel/analytics/react"
+import Faculty from "./Faculty";
 // Main landing page component
 const HomePage = () => {
   return (
