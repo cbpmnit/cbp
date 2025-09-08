@@ -16,7 +16,7 @@ const AboutUS = () => {
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             Welcome to the Capacity Building Program, a premier 5-day initiative
-            crafted by the Training & Placement Cell of MNIT.  
+            crafted by the Department of Humanities and Social Sciences in collaboration with the Training & Placement Cell of MNIT Jaipur.  
             More than a workshop — an immersive journey from academic knowledge to professional mastery.
           </p>
         </div>
