@@ -27,7 +27,8 @@ const Faculty = () => {
   return (
     <section className="py-10 px-4 text-center">
       <h2 className="text-2xl font-bold">Our Inspiration </h2>
-      <p className="text-gray-500 mb-8">This wouldn't be possible without them </p>
+      <p className="text-gray-500 mb-8">This wouldn't be
+         possible without them </p>
       <div className="flex justify-center flex-wrap gap-y-4 gap-x-10">
         {educators.map((edu, index) => (
           <EducatorCard key={index} {...edu} />
