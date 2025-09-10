@@ -108,12 +108,12 @@ export default function EventTimer() {
             🚀 Event Ended 2025' !
           </motion.div>
         ) : 
-{/* <div className="grid grid-cols-4 w-full px-2 sm:px-4 md:px-8">
-  <FlipBox value={days} label="Days" />
-  <FlipBox value={hours} label="Hours" />
-  <FlipBox value={minutes} label="Minutes" />
-  <FlipBox value={seconds} label="Seconds" />
-</div> */}
+// {/* <div className="grid grid-cols-4 w-full px-2 sm:px-4 md:px-8">
+//   <FlipBox value={days} label="Days" />
+//   <FlipBox value={hours} label="Hours" />
+//   <FlipBox value={minutes} label="Minutes" />
+//   <FlipBox value={seconds} label="Seconds" />
+// </div> */}
 
         (
           <motion.div
@@ -122,7 +122,8 @@ export default function EventTimer() {
             transition={{ duration: 0.5 }}
             className="text-lg md:text-2xl font-bold text-green-400 text-center relative z-10"
           >
-            🚀 Event Ended 2025' !
+            🚀 Event Ended 2025' 
+            <br/>
           </motion.div>
         )}
       </motion.div>
