@@ -14,12 +14,12 @@ const educators = [
   {
     name: "Prof. Rakesh Jain",
     role: "Co-founder",
-    image: rakesh,
+    image: Niraja,
   },
   {
     name: "Dr. Niraja Saraswat",
     role: "Co-founder",
-    image: Niraja,
+    image: rakesh,
   } 
 ];
 
