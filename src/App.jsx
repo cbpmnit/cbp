@@ -50,7 +50,7 @@ function App() {
   
 
   return (
-    <Router basename="version6">
+    <Router basename="/version6">
       <Routes>
         {/* Home page */}
         <Route path="/" element={<HomePage />} />
